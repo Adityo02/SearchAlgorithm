@@ -51,6 +51,8 @@ namespace SearchAlgorithm
                 int item = Convert.ToInt32(Console.ReadLine());
 
                 //Apply Binary search
+                int lowerbound = 0;
+                int upperbound = n - 1;
 
                 //obtain The Index of the middle elements
                 int mid = (lowerbound + upperbound) / 2;
@@ -67,6 +69,13 @@ namespace SearchAlgorithm
                     mid = (lowerbound + upperbound) / 2;
                     ctr++;
                 }
+                if (item == arr[mid])
+                    Console.WriteLine("\n" + item.ToString() + " found at position " + (mid + 1).ToString());
+                else
+                    Console.WriteLine("\n" + item.ToString() + " not found in the array\n");
+                Console.WriteLine("\nNumber of Comparasion : " + ctr);
+
+                Console.Write("\nContinue Search (y/n):");
             }
         }
 
