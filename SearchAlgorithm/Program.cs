@@ -82,7 +82,13 @@ namespace SearchAlgorithm
 
         public void LinearSearch()
         {
+            char ch;
+            //Search for Number of Comparasion
+            int ctr;
+            do
+            {
 
+            }
         }
 
         static void Main(string[] args)
