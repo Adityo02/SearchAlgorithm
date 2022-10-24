@@ -41,6 +41,11 @@ namespace SearchAlgorithm
             }
         }
 
+        public void BinarySearch()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Word");
