@@ -130,7 +130,9 @@ namespace SearchAlgorithm
                         Console.WriteLine("- - - - - - - - - - - -");
                         Console.WriteLine(" Linear Search");
                         Console.WriteLine("- - - - - - - - - - - -");
-                        myList input();
+                        myList.input();
+                        myList.LinearSearch();
+                        break;
                 }
             }
         }
