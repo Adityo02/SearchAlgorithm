@@ -140,7 +140,7 @@ namespace SearchAlgorithm
                         Console.WriteLine(" Binary Search");
                         Console.WriteLine("- - - - - - - - - - - -");
                         myList.input();
-                        myList.BinarySearch
+                        myList.BinarySearch();
                         break;
 
                     case 3:
@@ -153,7 +153,7 @@ namespace SearchAlgorithm
                 //to exit from the console
                 Console.WriteLine("\n\nPress Return to Exit.");
                 Console.ReadLine();
-            }
+            } while (pilihanmenu != 3);
         }
     }
 }
