@@ -43,7 +43,13 @@ namespace SearchAlgorithm
 
         public void BinarySearch()
         {
-
+            char ch;
+            do
+            {
+                //Accept the Number to be Searched
+                Console.Write("\nEnter Element Want You to Search :");
+                int item = Convert.ToInt32(Console.ReadLine());
+            }
         }
 
         static void Main(string[] args)
