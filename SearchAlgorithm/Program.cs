@@ -111,7 +111,8 @@ namespace SearchAlgorithm
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Word");
+            Program myList = new Program();
+            int pilihanmenu;
         }
     }
 }
