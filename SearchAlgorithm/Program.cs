@@ -49,6 +49,12 @@ namespace SearchAlgorithm
                 //Accept the Number to be Searched
                 Console.Write("\nEnter Element Want You to Search :");
                 int item = Convert.ToInt32(Console.ReadLine());
+
+                //Apply Binary search
+
+                //obtain The Index of the middle elements
+                int mid = (lowerbound + upperbound) / 2;
+                int ctr = 1;
             }
         }
 
