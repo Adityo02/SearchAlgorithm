@@ -150,6 +150,9 @@ namespace SearchAlgorithm
                         Console.WriteLine("Error");
                         break;
                 }
+                //to exit from the console
+                Console.WriteLine("\n\nPress Return to Exit.");
+                Console.ReadLine();
             }
         }
     }
