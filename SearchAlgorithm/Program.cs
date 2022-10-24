@@ -80,6 +80,11 @@ namespace SearchAlgorithm
             } while ((ch == 'y') || (ch == 'y'));
         }
 
+        public void LinearSearch()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Word");
