@@ -76,7 +76,8 @@ namespace SearchAlgorithm
                 Console.WriteLine("\nNumber of Comparasion : " + ctr);
 
                 Console.Write("\nContinue Search (y/n):");
-            }
+                ch = char.Parse(Console.ReadLine());
+            } while ((ch == 'y') || (ch == 'y'));
         }
 
         static void Main(string[] args)
